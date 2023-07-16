@@ -1,0 +1,5 @@
+package com.ust.cart.Repo;
+
+public interface CartRepo {
+
+}

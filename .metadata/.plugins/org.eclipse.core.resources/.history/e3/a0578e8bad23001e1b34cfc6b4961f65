@@ -1,0 +1,5 @@
+package com.ust.order.service;
+
+public class OrderService {
+
+}

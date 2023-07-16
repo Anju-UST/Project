@@ -1,0 +1,5 @@
+package com.ust.order.exception;
+
+public class ErrorResponse {
+
+}

@@ -1,0 +1,5 @@
+package com.ust.product.Model;
+
+public class Product {
+
+}
