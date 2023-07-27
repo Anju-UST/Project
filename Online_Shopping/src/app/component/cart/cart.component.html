@@ -1,0 +1,26 @@
+<app-nav-bar></app-nav-bar>
+
+<div class="container">
+  <h2>Cart</h2>
+  <div *ngIf="cartItems.length === 0">Your cart is empty</div>
+  <div *ngFor="let item of cartItems" class="cart-item">
+    <img [src]="item.image" alt="Product Image" class="product-image">
+    <ul>
+      <h3>{{ item.name }}</h3>
+      <li><p>{{ item.price | currency }}</p></li>
+      <li><p>Quantity: {{ item.quantity }}</p></li>
+    </ul>
+    <div>
+      <button (click)="removeFromCart(item.id)" class="btn">Remove</button>
+    </div>
+  </div>
+  <div class="total-amount" *ngIf="cartItems.length > 0">
+    Total Amount: {{ total | currency }}
+  </div>
+</div>
+
+<nav class="navbar navbar-light bg-green">
+  <a class="navbar-brand" style="color: rgba(239, 249, 248, 0.925);">Cart</a>
+</nav>
+
+  

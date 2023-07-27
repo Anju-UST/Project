@@ -1,0 +1,19 @@
+.img-fluid{
+    position: relative;
+    height: 607px;
+   }
+
+   .mb-5 {
+    margin-bottom: -2rem!important;
+}
+.navbar {
+    background-color: rgb(10, 220, 181);
+    color: rgb(224, 231, 227);
+    padding: 15px;
+  }
+  .nav{
+    background-color: rgb(10, 220, 181);
+    color: rgb(224, 231, 227);
+    padding: 30px;
+  }
+ 
